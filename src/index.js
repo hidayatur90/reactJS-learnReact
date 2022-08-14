@@ -11,6 +11,14 @@ root.render(
   </React.StrictMode>
 );
 
+let name = "My World"
+const element = ReactDOM.createRoot(document.getElementById('master'));
+element.render(
+  <React.StrictMode>
+    <h1>Hello, {name}</h1>
+  </React.StrictMode>
+);
+
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
