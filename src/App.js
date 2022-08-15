@@ -52,7 +52,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <Timer second="0" minute="0" hour="0" />
+          <Timer second="00" minute="00" hour="00" />
         </header>
       </div>
     );
