@@ -34,7 +34,7 @@ class Timer extends Component {
         minutes: parseInt(state.minutes) - 59,
         hours: parseInt(state.hours) + 1
       }))
-    }else {
+    } else {
       this.setState((state, props) => ({
         seconds: parseInt(state.seconds) + 1
       }))
